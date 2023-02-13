@@ -100,9 +100,11 @@ input::placeholder{
   .forgotpassword{
     color: #696969;
     position: relative;
-    left: 25%;
+    left: 65%;
     font-size: 16px;
     cursor: pointer;
+    width: 100%;
+    max-width: fit-content;
 }
 
 .forgotpassword:hover{
@@ -176,13 +178,18 @@ input::placeholder{
   @media only screen and (min-width: 900px) and (max-width: 1100px) {  
 
     .partition::before {
-        left: 120px;
+        left: 180px;
       }
     
       .partition::after {
-        right: 120px;
+        right: 180px;
       }
+
+      .forgotpassword{
+        position: relative;
+        left: 58%;
   }
+}
 
   @media only screen and (min-width: 400px) and (max-width: 700px) {  
 
@@ -242,7 +249,7 @@ input::placeholder{
       }
 
     .forgotpassword{
-        left: 25%;
+        left: 65%;
         font-size: 12px;
     }
 
@@ -269,6 +276,13 @@ input::placeholder{
         font-size: 16px;
         margin-top: 15px;
     }
+ }
+
+ @media only screen and (min-width:300px) and (max-width:500px) {
+  .forgotpassword{
+    left: 55%;
+    font-size: 12px;
+}
  }
 
  @media only screen and (max-width:300px) {
@@ -304,7 +318,7 @@ input::placeholder{
       }
 
     .forgotpassword{
-        left: 18%;
+        left: 50%;
         font-size: 11px;
     }
 
